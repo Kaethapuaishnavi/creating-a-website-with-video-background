@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TRAVELLING LANDING PAGE</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">TRAVEL</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="scenic-lake-resort-aerial-view-of-serene-nature-SBV-306543525-preview.mp4" muted loop autoplay></video>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring the world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo aut nihil unde hic iste distinctio iusto nisi consequatur nam molestiae?</p>
+            <a href="#">explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"></a><img src="C:\Users\vaish\OneDrive\Desktop\projects\download.png"alt=""></li>
+            <li><a href="#"></a><img src="C:\Users\vaish\OneDrive\Desktop\projects\download (1).png"alt=""></li>
+            <li><a href="#"></a><img src="C:\Users\vaish\OneDrive\Desktop\projects\downloadi.jpeg"alt=""></li>
+        </ul>
+     </section>  
+      <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+      </script>
+</body>
+</html>
